@@ -1,0 +1,522 @@
+[
+  {
+    "Id": 1,
+    "name": "JPEG",
+    "extension": "jpg",
+    "category": "raster",
+    "mimeType": "image/jpeg",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Most common image format with lossy compression"
+  },
+  {
+    "Id": 2,
+    "name": "PNG",
+    "extension": "png",
+    "category": "raster",
+    "mimeType": "image/png",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Lossless compression with transparency support"
+  },
+  {
+    "Id": 3,
+    "name": "WebP",
+    "extension": "webp",
+    "category": "web",
+    "mimeType": "image/webp",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Modern web format with superior compression"
+  },
+  {
+    "Id": 4,
+    "name": "AVIF",
+    "extension": "avif",
+    "category": "web",
+    "mimeType": "image/avif",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Next-generation image format with excellent compression"
+  },
+  {
+    "Id": 5,
+    "name": "GIF",
+    "extension": "gif",
+    "category": "raster",
+    "mimeType": "image/gif",
+    "supportsTransparency": true,
+    "maxColors": 256,
+    "description": "Animated image format with limited colors"
+  },
+  {
+    "Id": 6,
+    "name": "SVG",
+    "extension": "svg",
+    "category": "vector",
+    "mimeType": "image/svg+xml",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Scalable vector graphics format"
+  },
+  {
+    "Id": 7,
+    "name": "BMP",
+    "extension": "bmp",
+    "category": "raster",
+    "mimeType": "image/bmp",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Bitmap image format without compression"
+  },
+  {
+    "Id": 8,
+    "name": "TIFF",
+    "extension": "tiff",
+    "category": "raster",
+    "mimeType": "image/tiff",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "High-quality image format for professional use"
+  },
+  {
+    "Id": 9,
+    "name": "ICO",
+    "extension": "ico",
+    "category": "raster",
+    "mimeType": "image/x-icon",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Icon format for Windows applications"
+  },
+  {
+    "Id": 10,
+    "name": "HEIC",
+    "extension": "heic",
+    "category": "raster",
+    "mimeType": "image/heic",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "High-efficiency image format used by Apple"
+  },
+  {
+    "Id": 11,
+    "name": "JPEG 2000",
+    "extension": "jp2",
+    "category": "raster",
+    "mimeType": "image/jp2",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Advanced JPEG format with better compression"
+  },
+  {
+    "Id": 12,
+    "name": "JPEG XL",
+    "extension": "jxl",
+    "category": "web",
+    "mimeType": "image/jxl",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Next-generation JPEG format with superior compression"
+  },
+  {
+    "Id": 13,
+    "name": "PSD",
+    "extension": "psd",
+    "category": "raster",
+    "mimeType": "image/vnd.adobe.photoshop",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Adobe Photoshop document format"
+  },
+  {
+    "Id": 14,
+    "name": "EPS",
+    "extension": "eps",
+    "category": "vector",
+    "mimeType": "application/postscript",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Encapsulated PostScript format"
+  },
+  {
+    "Id": 15,
+    "name": "AI",
+    "extension": "ai",
+    "category": "vector",
+    "mimeType": "application/illustrator",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Adobe Illustrator artwork format"
+  },
+  {
+    "Id": 16,
+    "name": "PDF",
+    "extension": "pdf",
+    "category": "document",
+    "mimeType": "application/pdf",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Portable Document Format"
+  },
+  {
+    "Id": 17,
+    "name": "DNG",
+    "extension": "dng",
+    "category": "raw",
+    "mimeType": "image/x-adobe-dng",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Digital Negative raw format"
+  },
+  {
+    "Id": 18,
+    "name": "CR2",
+    "extension": "cr2",
+    "category": "raw",
+    "mimeType": "image/x-canon-cr2",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Canon raw format version 2"
+  },
+  {
+    "Id": 19,
+    "name": "NEF",
+    "extension": "nef",
+    "category": "raw",
+    "mimeType": "image/x-nikon-nef",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Nikon electronic format"
+  },
+  {
+    "Id": 20,
+    "name": "ARW",
+    "extension": "arw",
+    "category": "raw",
+    "mimeType": "image/x-sony-arw",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Sony raw format"
+  },
+  {
+    "Id": 21,
+    "name": "TGA",
+    "extension": "tga",
+    "category": "raster",
+    "mimeType": "image/x-tga",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Truevision TGA format"
+  },
+  {
+    "Id": 22,
+    "name": "PCX",
+    "extension": "pcx",
+    "category": "raster",
+    "mimeType": "image/x-pcx",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "PC Paintbrush format"
+  },
+  {
+    "Id": 23,
+    "name": "WEBM",
+    "extension": "webm",
+    "category": "web",
+    "mimeType": "video/webm",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Web video format with image support"
+  },
+  {
+    "Id": 24,
+    "name": "FLIF",
+    "extension": "flif",
+    "category": "web",
+    "mimeType": "image/flif",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Free Lossless Image Format"
+  },
+  {
+    "Id": 25,
+    "name": "JXR",
+    "extension": "jxr",
+    "category": "raster",
+    "mimeType": "image/vnd.ms-photo",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "JPEG XR format by Microsoft"
+  },
+  {
+    "Id": 26,
+    "name": "WBMP",
+    "extension": "wbmp",
+    "category": "raster",
+    "mimeType": "image/vnd.wap.wbmp",
+    "supportsTransparency": false,
+    "maxColors": 2,
+    "description": "Wireless Bitmap format"
+  },
+  {
+    "Id": 27,
+    "name": "PBM",
+    "extension": "pbm",
+    "category": "raster",
+    "mimeType": "image/x-portable-bitmap",
+    "supportsTransparency": false,
+    "maxColors": 2,
+    "description": "Portable Bitmap format"
+  },
+  {
+    "Id": 28,
+    "name": "PGM",
+    "extension": "pgm",
+    "category": "raster",
+    "mimeType": "image/x-portable-graymap",
+    "supportsTransparency": false,
+    "maxColors": 256,
+    "description": "Portable Graymap format"
+  },
+  {
+    "Id": 29,
+    "name": "PPM",
+    "extension": "ppm",
+    "category": "raster",
+    "mimeType": "image/x-portable-pixmap",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Portable Pixmap format"
+  },
+  {
+    "Id": 30,
+    "name": "PAM",
+    "extension": "pam",
+    "category": "raster",
+    "mimeType": "image/x-portable-arbitrarymap",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Portable Arbitrary Map format"
+  },
+  {
+    "Id": 31,
+    "name": "XBM",
+    "extension": "xbm",
+    "category": "raster",
+    "mimeType": "image/x-xbitmap",
+    "supportsTransparency": false,
+    "maxColors": 2,
+    "description": "X11 Bitmap format"
+  },
+  {
+    "Id": 32,
+    "name": "XPM",
+    "extension": "xpm",
+    "category": "raster",
+    "mimeType": "image/x-xpixmap",
+    "supportsTransparency": true,
+    "maxColors": 256,
+    "description": "X11 Pixmap format"
+  },
+  {
+    "Id": 33,
+    "name": "FITS",
+    "extension": "fits",
+    "category": "raster",
+    "mimeType": "image/fits",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Flexible Image Transport System format"
+  },
+  {
+    "Id": 34,
+    "name": "RGBA",
+    "extension": "rgba",
+    "category": "raster",
+    "mimeType": "image/x-rgba",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Raw RGBA format"
+  },
+  {
+    "Id": 35,
+    "name": "RGB",
+    "extension": "rgb",
+    "category": "raster",
+    "mimeType": "image/x-rgb",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Raw RGB format"
+  },
+  {
+    "Id": 36,
+    "name": "MIFF",
+    "extension": "miff",
+    "category": "raster",
+    "mimeType": "image/x-miff",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Magick Image File Format"
+  },
+  {
+    "Id": 37,
+    "name": "JNG",
+    "extension": "jng",
+    "category": "raster",
+    "mimeType": "image/x-jng",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "JPEG Network Graphics format"
+  },
+  {
+    "Id": 38,
+    "name": "MNG",
+    "extension": "mng",
+    "category": "raster",
+    "mimeType": "video/x-mng",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Multiple-image Network Graphics format"
+  },
+  {
+    "Id": 39,
+    "name": "APNG",
+    "extension": "apng",
+    "category": "web",
+    "mimeType": "image/apng",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Animated PNG format"
+  },
+  {
+    "Id": 40,
+    "name": "HDR",
+    "extension": "hdr",
+    "category": "raster",
+    "mimeType": "image/vnd.radiance",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "High Dynamic Range format"
+  },
+  {
+    "Id": 41,
+    "name": "EXR",
+    "extension": "exr",
+    "category": "raster",
+    "mimeType": "image/x-exr",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "OpenEXR high dynamic range format"
+  },
+  {
+    "Id": 42,
+    "name": "PFM",
+    "extension": "pfm",
+    "category": "raster",
+    "mimeType": "image/x-portable-floatmap",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Portable Float Map format"
+  },
+  {
+    "Id": 43,
+    "name": "CUR",
+    "extension": "cur",
+    "category": "raster",
+    "mimeType": "image/x-win-bitmap",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Windows cursor format"
+  },
+  {
+    "Id": 44,
+    "name": "DCX",
+    "extension": "dcx",
+    "category": "raster",
+    "mimeType": "image/x-dcx",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Multi-page PCX format"
+  },
+  {
+    "Id": 45,
+    "name": "EMF",
+    "extension": "emf",
+    "category": "vector",
+    "mimeType": "image/x-emf",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Enhanced Metafile format"
+  },
+  {
+    "Id": 46,
+    "name": "WMF",
+    "extension": "wmf",
+    "category": "vector",
+    "mimeType": "image/x-wmf",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Windows Metafile format"
+  },
+  {
+    "Id": 47,
+    "name": "CGM",
+    "extension": "cgm",
+    "category": "vector",
+    "mimeType": "image/cgm",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Computer Graphics Metafile format"
+  },
+  {
+    "Id": 48,
+    "name": "DXF",
+    "extension": "dxf",
+    "category": "vector",
+    "mimeType": "image/vnd.dxf",
+    "supportsTransparency": false,
+    "maxColors": -1,
+    "description": "Drawing Exchange Format"
+  },
+  {
+    "Id": 49,
+    "name": "SK",
+    "extension": "sk",
+    "category": "vector",
+    "mimeType": "image/x-skencil",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Skencil vector graphics format"
+  },
+  {
+    "Id": 50,
+    "name": "FIG",
+    "extension": "fig",
+    "category": "vector",
+    "mimeType": "image/x-xfig",
+    "supportsTransparency": true,
+    "maxColors": -1,
+    "description": "Xfig vector graphics format"
+  },
+  {
+    "Id": 51,
+    "name": "PICT",
+    "extension": "pict",
+    "category": "raster",
+    "mimeType": "image/x-pict",
+    "supportsTransparency": false,
+    "maxColors": 16777216,
+    "description": "Apple PICT format"
+  },
+  {
+    "Id": 52,
+    "name": "ICNS",
+    "extension": "icns",
+    "category": "raster",
+    "mimeType": "image/x-icns",
+    "supportsTransparency": true,
+    "maxColors": 16777216,
+    "description": "Apple Icon format"
+  }
+]
